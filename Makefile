@@ -6,3 +6,5 @@ pdf:
 view:
 	evince build/CV.pdf &
 
+clean:
+	rm -r build

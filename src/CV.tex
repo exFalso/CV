@@ -1,0 +1,124 @@
+\documentclass[11pt]{res} % default is 10 pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % load a font with all the characters
+\setlength{\textheight}{9.5in} % increase text height to fit resume on 1 page
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{anysize}
+
+% \linespread{1.05}
+ 
+\marginsize{1cm}{1cm}{1cm}{1cm}
+% \oddsidemargin 0in
+% \evensidemargin 0in
+% \textheight 9.5in 
+% \textwidth 6.2in
+% \topmargin -15mm  
+% \footheight 1.0in
+% \parindent 10pt
+
+\begin{document} 
+\name{ANDRAS SLEMMER\\$\bot \vdash$\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{{\bf PRESENT ADDRESS}\\
+  31 Princess Court\\
+  London, United Kingdom \\
+         W2 4RD}
+\address{{\bf PERMANENT ADDRESS} \\ 3/D Bihari utca \\ Budapest, Hungary
+         1107 \\ +361 263 3370}
+
+                                             
+\begin{resume}
+                                               
+ 
+\section{OBJECTIVE}
+   A backend/infrastructure programming position, preferably using a functional language.
+ 
+\section{EDUCATION}
+2009-2013\\
+Imperial College London\\
+\emph{Master of Engineering in Computing} (transcript not yet available)
+\\
+\\
+2001-2009\\
+ELTE Radnóti Miklós Gyakorlógimnázium, Budapest\\
+\emph{Érettségi (Hungarian Final Exams)} (transcript available)
+
+\section{COMPUTER SKILLS}
+\begin{tabular}{ll}
+\bf{Operating Systems}: & {Linux-based(Arch, Ubuntu), Solaris, Windows}\\
+\bf{Programming Languages}: & {Haskell, C, C++, Java, x86-64 ASM, Agda}\\
+\bf{Scripting Languages}: & {JavaScript, Python, Bash, Lisp (Elisp), Prolog}\\
+\bf{Data Description/Markup}: & {XML, (X)HTML, JSON, SQL, Latex}\\
+\bf{Code editors}: & {Emacs}\\
+\bf{Version control}: & {git, svn}
+\end{tabular}
+
+\section{EXPERIENCE} 
+UNDERGRADUATE RESEARCH OPPORTUNITY PROGRAMME\\
+2010\\
+Imperial College London
+\vspace{0.2in}
+   \begin{itemize} \itemsep -2pt  % reduce space between items
+   \item Implemented, tested and benchmarked the Finite Element Method on multi- and manycore architectures. Also contributed to the later published paper\cite{markall0}
+   \item C++, OpenCL, CUDA
+ \end{itemize}
+
+BLOOMBERG INTERNSHIP\\
+2011\\
+GUI Infrastructure team, London
+\vspace{0.2in}
+ \begin{itemize} \itemsep -2pt
+   \item Implemented a debugging tool for examining low level client-server messages
+   \item C++, JavaScript
+\end{itemize} 
+
+BLOOMBERG INDUSTRIAL PLACEMENT\\
+2012\\
+Trading Solutions team, London
+\vspace{0.2in}
+ \begin{itemize} \itemsep -2pt
+   \item Implemented a remote log file crawler system using a pub-sub model
+   \item Implemented a modular frontend for a legacy application
+   \item C++, JavaScript
+\end{itemize} 
+
+\section{HONOURS} 
+ 
+Imperial College: First year AI Competition(1st place)\\
+IET Ambition Award 2010
+
+\section{PROJECTS}
+Cellular automata generator - custom stack machine based definition of cell behaviour\\
+Owari AI - 'broke' game by searching the complete decision tree\\
+MAlice compiler - compiles a fictional language, x86 backend, completely written in Prolog\\
+PintOS - implemented core parts of an operating system: scheduler, VM, process management\\
+Tragor - online game, Python\\
+Semi-markov process simulator - reimplemented given Java framework in Haskell for a coursework\\
+Diplomacy framework - AI framework and bots\\
+NowHs - an RPC library between Haskell and JavaScript using websockets\\
+Smaller projects - a modular logging library; a proof that -XUndecidableInstances is Turing-complete; safe coercion of ground representations of rank1 polymorphic types; a library that allows a separate GHCi instance to call functions in a running process
+ 
+\section{HOBBIES} 
+ 
+Wall climbing, casual gaming
+
+\end{resume}
+
+\bibliographystyle{unsrt}
+\bibliography{papers}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
